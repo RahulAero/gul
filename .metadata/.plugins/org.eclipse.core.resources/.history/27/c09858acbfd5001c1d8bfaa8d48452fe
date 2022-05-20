@@ -1,0 +1,15 @@
+package org.testrun;
+
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@Cucumberopions(feature= {"src\\test\\resources\\cucumber.feature"} )
+
+
+public class MareeshTestRunner {
+	
+	
+	
+	
+
+}

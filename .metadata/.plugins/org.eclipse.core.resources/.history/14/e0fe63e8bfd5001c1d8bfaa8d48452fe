@@ -1,0 +1,10 @@
+package org.stepdef;
+
+import org.junit.runner.RunWith;
+
+
+public class MareeshStepDef	 {
+	
+	
+
+}

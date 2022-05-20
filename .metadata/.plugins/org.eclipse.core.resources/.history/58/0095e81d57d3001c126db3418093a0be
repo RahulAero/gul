@@ -1,0 +1,74 @@
+package org.Baseclass;
+
+import java.awt.Dimension;
+import java.io.File;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+import com.graphbuilder.curve.Point;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class BaseC {
+
+	Select s;
+	WebDriver driver;
+	TakesScreenshot ts;
+	File screenshotAs;
+	JavascriptExecutor js ;
+	Actions a;
+	Point p;
+	Dimension d;
+	Alert alert;
+	
+	
+	private void Initiate(String browser ) {
+		
+		if (browser == "chrome") {
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+			
+		}
+		else if (browser == "edge") {
+			WebDriverManager.edgedriver().setup();
+			driver= new EdgeDriver();
+			
+		}
+		else if (browser== "firefox") {
+			WebDriverManager.firefoxdriver().setup();
+			
+		}
+		
+
+	}
+	
+	private void url(String url) {
+   driver.get(url);
+	}
+	private void navigate(String url) {
+driver.navigate().to(url);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+}

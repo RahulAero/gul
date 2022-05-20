@@ -1,0 +1,29 @@
+package org.array;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Arraydimention {
+	public static void main(String[] args) {
+		List<String>m1=new ArrayList<String>
+		m1.add("raj");
+		m1.add("muthu@gmail.com");
+		m1.add("muthu@123");
+		String string = m1.get(2);
+		System.out.println(string);
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

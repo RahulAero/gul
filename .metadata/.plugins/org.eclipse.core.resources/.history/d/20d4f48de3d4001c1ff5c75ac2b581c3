@@ -1,0 +1,4 @@
+Feature: Validating login feild in Adactin Application
+Scenario Outline: Validating Login and password
+Given: user need to initiate "chrome" and launch "https://adactinhotelapp.com/"
+Given: user needs to 

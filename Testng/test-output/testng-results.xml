@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-09T10:51:52Z" name="Suite" finished-at="2022-05-09T10:51:52Z" duration-ms="79">
+    <groups>
+    </groups>
+    <test started-at="2022-05-09T10:51:52Z" name="Test" finished-at="2022-05-09T10:51:52Z" duration-ms="79">
+      <class name="com.trial.parallel01">
+        <test-method signature="tc10()[pri:0, instance:com.trial.parallel01@4416d64f]" started-at="2022-05-09T10:51:52Z" name="tc10" finished-at="2022-05-09T10:51:52Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc10 -->
+        <test-method signature="tc11()[pri:0, instance:com.trial.parallel01@4416d64f]" started-at="2022-05-09T10:51:52Z" name="tc11" finished-at="2022-05-09T10:51:52Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc11 -->
+        <test-method signature="tc12()[pri:0, instance:com.trial.parallel01@4416d64f]" started-at="2022-05-09T10:51:52Z" name="tc12" finished-at="2022-05-09T10:51:52Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12 -->
+        <test-method signature="tc13()[pri:0, instance:com.trial.parallel01@4416d64f]" started-at="2022-05-09T10:51:52Z" name="tc13" finished-at="2022-05-09T10:51:52Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc13 -->
+      </class> <!-- com.trial.parallel01 -->
+      <class name="com.trial.parallel00">
+        <test-method signature="tc00()[pri:0, instance:com.trial.parallel00@6bf08014]" started-at="2022-05-09T10:51:52Z" name="tc00" finished-at="2022-05-09T10:51:52Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc00 -->
+        <test-method signature="tc01()[pri:0, instance:com.trial.parallel00@6bf08014]" started-at="2022-05-09T10:51:52Z" name="tc01" finished-at="2022-05-09T10:51:52Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+        <test-method signature="tc02()[pri:0, instance:com.trial.parallel00@6bf08014]" started-at="2022-05-09T10:51:52Z" name="tc02" finished-at="2022-05-09T10:51:52Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+        <test-method signature="tc03()[pri:0, instance:com.trial.parallel00@6bf08014]" started-at="2022-05-09T10:51:52Z" name="tc03" finished-at="2022-05-09T10:51:52Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03 -->
+      </class> <!-- com.trial.parallel00 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

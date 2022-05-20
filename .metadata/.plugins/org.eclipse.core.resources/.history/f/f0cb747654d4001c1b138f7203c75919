@@ -1,0 +1,4 @@
+Feature: Validating login feild in Adactin Application
+Scenario Outline: Validating Login and password
+Given: user need to launch Browser
+Given: 
